@@ -12,6 +12,8 @@ tags:
 last_modified_at: 2020-02-12 23:18:40
 ---
 
+![neofetch]({{ site.url }}/assets/01-install-arch-linux/neofetch.png)
+
 # 아치 리눅스 설치하기
 
 last modified at: {{ page.last_modified_at }}
