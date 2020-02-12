@@ -18,13 +18,13 @@ last modified at: {{ page.last_modified_at }}
 
 나중에 재설치할 경우를 대비해서 작성
 
-reference: https://withjeon.com/2017/11/07/arch-linux-install-guide/
+reference: <a href="https://withjeon.com/2017/11/07/arch-linux-install-guide/"> https://withjeon.com/2017/11/07/arch-linux-install-guide/</a>
 
 ## iso 다운로드 및 설치준비
 
 1. 다운로드
 
-https://www.archlinux.org/download/
+[https://www.archlinux.org/download/](https://www.archlinux.org/download/)
 
 이곳에서 서버 부담을 줄이기 위해 토렌트를 이용해서 다운로드 받는다.
 
