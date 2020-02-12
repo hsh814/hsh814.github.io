@@ -14,11 +14,11 @@ last_modified_at: 2020-02-12 23:18:40
 
 # 아치 리눅스 설치하기
 
-    last modified at: {{ page.last_modified_at }}
+last modified at: {{ page.last_modified_at }}
 
-    나중에 재설치할 경우를 대비해서 작성
+나중에 재설치할 경우를 대비해서 작성
 
-    reference: <a href="https://withjeon.com/2017/11/07/arch-linux-install-guide/"> https://withjeon.com/2017/11/07/arch-linux-install-guide/</a>
+reference: <a href="https://withjeon.com/2017/11/07/arch-linux-install-guide/"> https://withjeon.com/2017/11/07/arch-linux-install-guide/</a>
 
 ## iso 다운로드 및 설치준비
 
@@ -40,7 +40,7 @@ last_modified_at: 2020-02-12 23:18:40
 
 ## 설치
 
-    USB를 꽂고 부팅 -> bios 진입 -> arch linux 선택
+USB를 꽂고 부팅 -> bios 진입 -> arch linux 선택
 
 1. 파티션
 
@@ -97,29 +97,39 @@ last_modified_at: 2020-02-12 23:18:40
 
 5. pacstrap
 
-    `pacstrap /mnt base linux linux-firmware base-devel`
+    ```
+    pacstrap /mnt base linux linux-firmware base-devel
+    ```
 
 6. genfstab
 
-    `genfstab -U /mnt >> /mnt/etc/fstab`
+    ```
+    genfstab -U /mnt >> /mnt/etc/fstab
+    ```
 
 ## 시스템 설정
 
 1. 루트 진입
 
-    `arch-chroot /mnt`
+    ```
+    arch-chroot /mnt
+    ```
 
 2. 패스워드 변경
 
-    `#passwd`
+    ```
+    #passwd
+    ```
 
 3. 로케일 설정
 
-    `#nano /etc/locale.gen`
+    ```
+    #nano /etc/locale.gen
 
-    `en_US.UTF-8` 만 주석 해제
+    > en_US.UTF-8 만 주석 해제
 
-    `#locale-gen`
+    #locale-gen
+    ```
 
 4. 언어 설정
 
@@ -130,13 +140,17 @@ last_modified_at: 2020-02-12 23:18:40
 
 5. 호스트 네임 설정
 
-    `#echo hostname > /etc/hostname`
+    ```
+    #echo hostname > /etc/hostname
+    ```
 
 6. 타임존
 
-    `#ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime`
+    ```
+    #ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 
-    `#hwclock --systohc --utc`
+    #hwclock --systohc --utc
+    ```
 
 7. 새 계정 추가
     ```
@@ -153,7 +167,9 @@ last_modified_at: 2020-02-12 23:18:40
 
 8. 팩맨 설정
 
-    `nano /etc/pacman.conf`
+    ```
+    #nano /etc/pacman.conf
+    ```
 
     Misc options에서 Color 주석해제 + ILoveCandy 추가
 
@@ -186,7 +202,7 @@ last_modified_at: 2020-02-12 23:18:40
 
 ## 데스크톱 환경 설치
 
-    설정한 id로 로그인
+설정한 id로 로그인
 
 1. 인터넷
 
