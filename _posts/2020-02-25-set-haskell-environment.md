@@ -1,7 +1,7 @@
 ---
 title: "Haskell 개발 환경 설치하기"
 excerpt: "하스켈 설치 및 기본 설정"
-date: 2020-02-25 22:49:00 -0400
+date: 2020-02-25 23:34:06 -0400
 categories: 
   - haskell
 tags:
@@ -18,7 +18,7 @@ last modified at: {{ page.last_modified_at }}
 하스켈을 시작해보고 싶은 사람들을 위한 초기 설치 정보
 
 ## 목록
-- [하스켈 개발 환경 설치하기(stack)].(#하스켈-개발-환경-설치하기)
+- [하스켈 개발 환경 설치하기(stack)](#하스켈-개발-환경-설치하기)
 - [vscode](#vscode)
 - [intellij](#intellij)
 
@@ -152,7 +152,7 @@ code .
 
 ## intellij
 
-intellij IDEA는 유용한 IDE이다. 역시 intellij-haskell이라는 플러그인을 지원한다.
+intellij IDEA는 intellij-haskell이라는 플러그인을 지원한다.
 
 - [link](https://www.jetbrains.com/idea/download/#section=linux)
 
