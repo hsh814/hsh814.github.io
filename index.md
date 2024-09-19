@@ -2,6 +2,7 @@
 - Computer science and engineering
 - Combined master's and doctoral program
 - Lab of Software (LOFT) in UNIST (Ulsan National Institute of Science and Technology)
+- Program verification, automated program repair, fuzzing, symbolic execution
 
 ### Papers
 #### 2024
